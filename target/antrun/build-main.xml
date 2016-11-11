@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <move file="/home/synerzip/codebase/apex/training-dt/logparser/target/logparser-1.0-apexapp.jar" tofile="/home/synerzip/codebase/apex/training-dt/logparser/target/logparser-1.0.apa"/>
+</target>
+</project>
