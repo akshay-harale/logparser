@@ -13,30 +13,14 @@
   </property>
   -->
   <property>
-    <name>dt.application.MyFirstApplication.operator.randomGenerator.prop.numTuples</name>
-    <value>1000</value>
-  </property>
-  <property>
-    <name>dt.application.MyFirstApplication.operator.console.prop.stringFormat</name>
-    <value>hello world: %s</value>
+    <name>dt.application.MyFirstApplication.operator.parser.prop.logFileFormat</name>
+    <value>SYS_LOG</value>
   </property>
 
-  <property>
-    <name>dt.application.MyFirstApplication.operator.parser.prop.pattern</name>
-    <value>[([\\w:/]+\\s[+\\-]\\d{4})\\] (\\S) \\[(\\w+) ([\\d.]+) ([\\d.]+) (\\w+) (\\w+.*)\\] (\\w.*?\\d{3}) ([\\d.]+) \"([^\"]*)\" \"([^\"]*)\" (\\S) (\\w+) (.*)</value>
-  </property>
-  <property>
-    <name>dt.application.MyFirstApplication.operator.parser.prop.className</name>
-    <value></value>
-  </property>
-  <property>
-    <name>dt.application.MyFirstApplication.operator.parser.prop.schema</name>
+<!--  <property>
+    <name>dt.application.MyFirstApplication.operator.parser.prop.logFileFormat</name>
     <value>
       [{
-        "field":"ip",
-        "regex":""
-      },
-      {
       "field":"ip",
       "regex":""
       },
@@ -44,20 +28,18 @@
       "field":"ip",
       "regex":""
       },
-      {
-      "field":"ip",
-      "regex":""
-      },
-      {
-      "field":"ip",
-      "regex":""
-      },
+      …
+      ...
       {
       "field":"ip",
       "regex":""
       }
       ]
     </value>
+  </property>-->
+  <property>
+    <name>dt.application.MyFirstApplication.operator.parser.out.attr.TUPLE_CLASS</name>
+    <value>com.example.myapexapp.schema.LogSchema</value>
   </property>
 
 

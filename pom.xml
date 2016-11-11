@@ -141,7 +141,7 @@
                             <artifacts>
                                 <artifact>
                                     <file>target/${project.artifactId}-${project.version}.apa</file>
-                                    <type>apa</type>
+                                    <regex>apa</regex>
                                 </artifact>
                             </artifacts>
                             <skipAttach>false</skipAttach>

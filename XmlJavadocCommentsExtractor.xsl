@@ -28,7 +28,7 @@
   <!-- copy xml by selecting only the following nodes, attributes and text -->
   <xsl:template match="node()|text()|@*">
     <xsl:copy>
-      <xsl:apply-templates select="root|package|class|interface|method|field|type|comment|tag|text()|@name|@qualified|@text"/>
+      <xsl:apply-templates select="root|package|class|interface|method|field|regex|comment|tag|text()|@name|@qualified|@text"/>
     </xsl:copy>
   </xsl:template>
 
